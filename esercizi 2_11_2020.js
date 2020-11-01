@@ -5,7 +5,7 @@ function paw(base,esponente){       //A simple paw function that pass the argume
 }
 
 const mostra = paw(10,2);   //Give the values at my function 
-document.getElementById('paw1').innerText = 'The first paw number is'+' '+mostra; // View the result 
+document.getElementById('paw1').innerText = 'La prima potenza è'+' '+mostra; // View the result 
 
 //Second method without the instruction **
 
@@ -20,7 +20,7 @@ for ( i=0; i<esponente; i++){           //Calc the paw number
 }
 
 const mostra2 = mypaw(17,2);
-document.getElementById('paw2').innerText = 'The second paw number is'+' '+mostra2;      //See the result
+document.getElementById('paw2').innerText = 'La seconda potenza è'+' '+mostra2;      //See the result
 
 //Exercise 2: Create a function to print my age.
 
@@ -67,7 +67,7 @@ function unisci ( stringa1,stringa2){
 }
 
 const View1 = unisci('hello','I m Francesco');
-document.getElementById('stringa1').innerText = 'Mostro unione delle stringhe'+' '+View1;
+document.getElementById('stringa1').innerText = 'Questa è la concatenazione delle stringhe'+' '+View1;
 
 //Method2 : Use concact method
 
