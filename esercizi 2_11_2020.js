@@ -42,7 +42,7 @@ let anni = {
 }
 
 const mostra3 = anni.mostraEta();
-document.getElementById('età2').innerText= 'Mostro età con notazione letterale metodo'+ ' '+ mostra3;
+document.getElementById('età2').innerText= 'Mostro età con notazione letterale'+ ' '+ mostra3;
 
 //Third method : Create an object with constructor mode 
 
@@ -71,9 +71,10 @@ document.getElementById('stringa1').innerText = 'Mostro unione delle stringhe'+'
 
 //Method2 : Use concact method
 
-function mystring(string1,string2){
-const unione = string1.concat(' '+string2)
+function mystring(stringa1,stringa2){
+const mystring='';
+const unione = mystring.concat(stringa1+' '+stringa2);
 return document.getElementById('stringa2').innerText = unione;
 }
 
-let valori = mystring('Questa è la prima stringa' + 'Questa è la seconda stringa');
+var mostra6 = mystring('Unione di stringhe'+' '+'Con metodo concat');
