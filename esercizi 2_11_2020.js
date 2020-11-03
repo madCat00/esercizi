@@ -53,7 +53,7 @@ myanni.provincia = 'Arezzo';
 myanni.sex = 'Male';
 
 function age2() {
-    const visualizza =  myanni[eta]; //Different method to access the element
+    const visualizza =  myanni[eta]; //Different metod to access the element
     document.getElementById('età3').innerText = visualizza;
 }
 document.getElementById('età3').innerText = 'Mostro età con notazione a costruttore' + ' ' + myanni.eta;
